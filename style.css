@@ -1,3 +1,105 @@
+/*page wide */
 * {
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* hero */
+.header,
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    padding: 18px 240px 100px 240px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header-links {
+    font-size: 18px;
+    display: flex;
+    gap: 36px;
+}
+
+.header-links a,
+.hero p {
+    color: #E5E7EB;
+}
+
+/* hero */
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero h1 {
+    font-weight: bold;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.signup {
+    background-color: #3882F6;
+    border: #3882F6;
+    padding: 8px 36px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+    border-radius: 10px;
+    align-self: flex-start;
+}
+
+
+
+.placeholder-image{
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
