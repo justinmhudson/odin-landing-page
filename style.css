@@ -24,7 +24,9 @@ ul {
     list-style: none;
 }
 
-h1{
+h1,
+h2,
+h3 {
     margin: 0;
     padding: 0;
 }
@@ -34,15 +36,23 @@ p {
     padding: 0;
 }
 
-/* hero */
+.header,
+.hero,
+.info {
+    padding: 18px 240px 100px 240px;
+}
+
+/* header */
 .header,
 .hero {
     background-color: #1F2937;
     display: flex;
-    padding: 18px 240px 100px 240px;
+    gap: 50px;
+}
+
+.header {
     align-items: center;
     justify-content: space-between;
-    gap: 50px;
 }
 
 .logo {
@@ -66,6 +76,7 @@ p {
 .intro {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 10px;
 }
 
@@ -86,14 +97,114 @@ p {
     align-self: flex-start;
 }
 
-
-
-.placeholder-image{
-    background-color: #e5e7eb;
-    padding: 100px 200px;
+.fireworks{
+    border: 2px solid #E5E7EB;
 }
 
+/* Info Section */
 
+h2{
+    text-align: center;
+    margin: 40px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.image {
+    border: 5px solid #3882F6;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.caption {
+    max-width: 200px;
+}
+
+/* Quote box */
+
+.quote-box {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 100px 350px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.attribution {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* CTA */
+
+.cta-box {
+        background-color: #fff;
+        /* gap: 20px; */
+        /* align-items: center; */
+        padding: 100px 240px;
+}
+
+.cta{
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 120px;
+}
+
+.cta-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.cta h3{
+    color: #f9faf8;
+}
+
+.cta p{
+    color: #E5E7EB;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px 20px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 24px;
+}
 
 
 
